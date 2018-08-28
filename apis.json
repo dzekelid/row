@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Row",
+	"description": "This is a repository of row APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/row.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://row.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Cloud Spanner",
+			"x-api-slug": "google-cloud-spanner",
+			"description": "Cloud Spanner is the first and only relational database service that is both strongly consistent and horizontally scalable. With Cloud Spanner you enjoy all the traditional benefits of a relational database: ACID transactions, relational schemas (and schema changes without downtime), SQL queries, high performance, and high availability. But unlike any other relational database service, Cloud Spanner scales horizontally, to hundreds or thousands of servers, so it can handle the highest of transactional workloads. With automatic scaling, synchronous data replication, and node redundancy, Cloud Spanner delivers up to 99.999% (five 9s) of availability for your mission critical applications. In fact, Google&rsquo;s internal Spanner service has been handling millions of queries per second from many Google services for years.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png",
+			"humanURL": "https://cloud.google.com/spanner/",
+			"baseURL": "://spanner.googleapis.com//",
+			"tags": "Row",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/row/master/_listings/google-cloud-spanner/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Row",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/row/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Row",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/row/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Row",
+	"include": [
+		{
+			"name": "Google Cloud Spanner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/row/master/_listings/google-cloud-spanner/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/row/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/row/master/_listings/xibo/apis.yaml"
+		}
+	]
+}
